@@ -7,9 +7,10 @@ The problem addressed in this project is that sometimes you can’t get the tone
 
 Potential Prototype Ideas:
 
-1. We implement an additonal key on the keyboard that allows users to select a color for their messages similar to how there is a button to add emojis to messages.
-2. We have the option for color on a message appear when you hold down the send button and then you will be given a list color similar to how the effects on messages currently work on iphone.
-3. We add a tone button when you press and hold to react to a message. This would allow users to select a color after they have sent the message.
+1. We implement an additonal key on the keyboard that allows users to select a color for their messages similar to how there is a button to add emojis to messages. The key would be labled tone and would have a variety of color options for the user to choose from. The colors would correspond with various tones such as sarcasm, anger, etc. This would allow the user to select the tone color before they send the message. They would also have the option to not select a color and leave it as default. 
+2. We have the option for color on a message appear when you hold down the send button and then you will be given a list color similar to how the effects on messages currently work on iphone. This would again be a list of colors called tones. Each of them would correspond with various tones such as sarcasm, anger, etc. This would allow the user to select the tone color before they send the message. They would also have the option to not select a color and leave it as default.
+3. We add a tone button when you press and hold to react to a message. This would prompt the user with a button under translate called tone and would give the user a list of color options that correspond with various tones such as sarcasm, anger, etc. This would allow the user to select the tone color after they send the message. They would also have the option to not select a color and leave it as default.
+4. A option next to the digital touch button above the keyboard. This would take your already typed out message and display it in different colors based on what the program wants to suggest to you. On the right sider there would be a list of color options based on how likely it thinks your message fits the tone. The colors would correspond with various tones such as sarcasm, anger, etc. This would allow the user to select the tone color before they send the message. They would also have the option to not select a color and leave it as default.
 
 Additional Ideas:
 
@@ -26,7 +27,7 @@ Our intended user population is anyone who may have difficulty communicating wit
 
 An explanation of why you think that you could develop a prototype solution with a relatively modest amount of implementation effort:
 
-We believe that developing a system that allows users to color code messages would not be that difficult given our current knowledge of python. However we do think their may be some limitations in our ability to actually implement our system into current messaging systems. Our goal is to test the prototype and then if it succesful and people find it useful then we can begin thinking about ways to implement it into already existing message systems. 
+We believe that developing a system that allows users to color code messages would not be that difficult given our current knowledge of python. However we do think their may be some limitations in our ability to actually implement our system into current messaging systems. Our goal is to test the prototype and then if it succesful and people find it useful then we can begin thinking about ways to implement it into already existing message systems. Our goal would be to initially create a program that allows users to change the color of messages based on tone. We would likely have this inside a contained enviroment and not attached to larger messaging applications. If this was succesful we would then look to expand it and potentially apply it to existing messaging services. 
 
 A brief overview of any existing solution (if there are) and what aspects you are improving upon:
 
