@@ -5,6 +5,7 @@ Observing Users:
 I asked people around campus what they thought about our idea and if it would be helpful to them. 
 All of them shared similar views that texting can sometimes be difficult because it can be hard to understand different tones that people use in different conversations. 
 Almost all of them said that the system or a version of it would be helpful to them and that they would use it.
+
 Someone suggested that we could use existing tone indicators to auto color messages in the system if you type out the tone indicator.
 Overall people seemed to think the system would be helpful and that it would make communicating over text easier.
 The people who said it woudln't be helpful said that they would not find the system disruptive even if they don't consider it helpful.
@@ -16,11 +17,13 @@ Persona 1: Sarah
 * Needs and Challenges: Sarah faces challenges in interpreting the tone and emotions behind text messages from her classmates and professors, leading to misunderstandings in academic and social settings.
 * Goals: Sarah hopes to find a solution that helps her accurately gauge the tone of messages to communicate effectively with peers and faculty members.
 * How the Project Benefits Sarah: The ability to color code messages and receive tone analysis would greatly assist Sarah in her college communication, allowing her to better participate in discussions, collaborate on group projects, and reduce social anxiety.
+
 Persona 2: Emily
 * Background: Emily is a 19-year-old college student who is relatively new to the college environment. She often exchanges text messages with her fellow students, friends, and professors but occasionally misinterprets messages due to inexperience.
 * Needs and Challenges: Emily sometimes struggles to accurately understand the tone and intentions behind text messages, leading to misunderstandings and the need to write additional messages for clarification.
 * Goals: Emily hopes to improve her ability to interpret messages correctly and reduce the frequency of misunderstandings in both academic and social contexts.
 * How the Project Benefits Emily: The ability to color code messages and receive tone analysis would assist Emily in better comprehending messages, reducing the need for follow-up messages to clarify meaning. This improvement in communication would enhance her academic performance and social interactions on campus.
+
 Persona 3: Alex
 * Background: Alex is a 20-year-old college student majoring in computer science. They are tech-savvy and frequently use sarcasm and humor in text messages with friends, classmates, and professors.
 * Needs and Challenges: Alex wants to ensure that their humor and sarcasm are correctly interpreted by recipients, as misunderstandings could impact their academic and social relationships.
@@ -30,14 +33,16 @@ Persona 3: Alex
 Illustrating a use case scenario: 
 
 Scenario 1: Alex
+
 Alex is a 20-year-old college student majoring in computer science. They are known for their witty sense of humor and often use sarcasm and wordplay in their text messages with friends, classmates, and professors. However, they've encountered situations where their humor was misinterpreted, leading to awkward or uncomfortable exchanges.
-Let's see how Alex interacts with the proposed system:
+How Alex could interact with our proposed system:
 * Alex receives a text message from their friend, Taylor, which says, "Nice weather we're having, isn't it?" The message is colored in blue, indicating a neutral tone.
 * Alex recognizes that this is an opportunity to add a bit of humor to the conversation. They reply, "Oh yeah, I love studying in a monsoon. It's so peaceful." They select a yellow color to signify sarcasm.
 * Taylor, who knows Alex's humor well, replies with a laugh emoji, indicating that they understood the sarcasm correctly. The system provides a tooltip for Taylor's message, saying, "Taylor's message: Recognized sarcasm."
 * Later that day, Alex receives a message from their professor regarding a class assignment. The message is colored in purple, which represents a formal tone. The professor asks, "Can you submit your assignment by Friday, Alex?"
 * Alex understands the importance of this message and replies promptly, "Of course, Professor. I'll make sure it's submitted by Friday." They use a blue color to convey professionalism.
 * The system analyzes Alex's message and provides a tone analysis, saying, "Alex's message: Professional and compliant."
+
 System Reactions:
 * The system analyzes incoming messages and assigns appropriate colors to them based on their tone and emotional content. Users can also manually select colors when they wish to add context to their messages, such as sarcasm.
 * The system provides brief tone analysis for incoming messages to help users understand the emotional context. For example, it may display a tooltip that says, "Taylor's message: Recognized sarcasm."
@@ -46,13 +51,15 @@ In this scenario, the proposed system allows Alex to use their humor and sarcasm
 
 
 Scenario 2: Alex
+
 Alex, a 20-year-old college student known for their humor and tech-savviness, occasionally needs to express anger or frustration in text messages. They've been using the proposed system to help convey their emotions effectively while ensuring that the tone is accurately interpreted.
-Here's a scenario where Alex needs to portray feeling angry:
+How Alex could interact with our proposed system in another way:
 * Alex receives a text message from their roommate, Chris. The message is colored in blue, indicating a neutral tone. Chris says, "Alex, you left your dishes in the sink again. Can you please wash them?"
 * Alex reads Chris's message and realizes that it's not the first time they've been asked to do the dishes. This time, they are genuinely annoyed and want to convey their frustration clearly without escalating the situation.
 * Alex selects a red color to express anger and replies, "Chris, I've asked you a million times not to use my stuff without permission! This is the last straw. Clean up after yourself too!"
 * Chris receives Alex's message, and the red color immediately signals to them that Alex is genuinely upset. Chris decides to address the issue calmly and avoid confrontation. They reply with a blue message, "I'm sorry, Alex. Let's talk about this when we're both home."
 * Alex is satisfied with the response because their anger was conveyed effectively without causing an unnecessary argument. The system provides a tooltip for Chris's message, saying, "Chris's message: Apologetic and open to discussion."
+
 System Reactions:
 * The system automatically assigns colors to incoming messages based on their tone and emotional content. Users can also manually select colors to express specific emotions, such as anger.
 * The system provides brief tone analysis for incoming messages to help users interpret the emotional context. For example, it might display a tooltip that says, "Chris's message: Apologetic and open to discussion."
@@ -61,13 +68,15 @@ In this scenario, the proposed system helps Alex express their anger without mis
 
 
 Scenario 3: Emily
+
 Emily, a 19-year-old college student, is relatively new to campus life. She's been using the proposed system to help her better understand the tone and intentions behind text messages, as she sometimes misinterprets them and needs to write additional messages for clarification.
-Let's dive into a typical scenario:
+How Emily could interact with our proposed system:
 * Emily is working on a group project for her English class, and her group members have been discussing their research findings and tasks over a group chat. She receives a message from Jason, one of her group members. The message is colored in blue, indicating a neutral tone. Jason says, "I think we should focus on revising the introduction."
 * Emily reads Jason's message and appreciates his input, but she's not entirely sure if he's suggesting a change or just making an observation. She decides to use the proposed system to avoid any misunderstandings.
 * Emily selects a yellow color for her response, signifying that she's suggesting a change. She replies, "That sounds like a good idea, Jason. How about we work on revising the introduction together?"
 * Jason sees Emily's message and understands her intent due to the color choice. He replies with a green message, indicating agreement, "Sure, Emily. Let's collaborate on that. Thanks!"
 * Emily is relieved that her message was clear, and she didn't need to send a follow-up message for clarification. The system provides a tooltip for Jason's message, saying, "Jason's message: Positive and in agreement."
+
 System Reactions:
 * The system automatically assigns colors to incoming messages based on their tone and emotional content. Users can also manually select colors when they wish to add context to their messages.
 * The system provides brief tone analysis for incoming messages to help users interpret the emotional context. For example, it might display a tooltip that says, "Jason's message: Positive and in agreement."
