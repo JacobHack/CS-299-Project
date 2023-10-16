@@ -5,4 +5,17 @@ Prototypes
 Document the prototypes that you developed to explore competing design decisions, making sure that a reader can understand how the prototypes are "used" during testing.
 
 Usability goals and benchmark tasks
-Decide on the most relevant usability goals for your system and choose appropriate "benchmark tasks" that you will use to determine whether these goals are met.
+Goals:
+Our first goal is to be user-friendly. Being easy to understand, and easy to use is extremely important for any prototype. However, it is crucial for ours because it is intended for people of all ages and all ranges of technological experience. 
+
+Another goal is to be consistent. We want to make sure that the same, and correct, tone is being conveyed from sender to recipient. This will reduce confusion amongst our users. Reducing confusion is very important, if not the most important thing when working with a communication system. 
+
+Our next goal is to be accessible to all users. We want to allow the use of colors that are friendly to people who have color blindness and/or other vision afflictions. This is a combination of being both user-friendly and trying to avoid confusion for users with disabilities. 
+
+Benchmark Tasks
+We can test new users setting up the system for the first time, see if they are able to complete it, and then ask them for feedback afterward. This will help identify any universally confusing areas in the design. We will know when the benchmark has been hit when we can consistently get new users to have zero problems while setting up for the first time.
+
+We will ask users to interact with another person using our system. We will know we hit the benchmark for our second goal when we can monitor the system interface and interactions within the system. Once elements of the user interface are consistent for all users, and at least 90% of user interactions are consistent in terms of input and output, then we will have completed this task.
+
+We will ask color-blind users to communicate with others using our system. We will know we reached our benchmark goal for accessibility when we have at least 90% of users report no confusion or communication issues.
+
