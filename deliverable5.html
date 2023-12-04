@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+h1 {
+  color: rgb(70, 163, 184);
+  border-radius: 5px;
+  font-size:400%;
+
+}
+body {
+  background-color: white;
+}
+p {
+  color: black;
+  font-size: larger;
+  line-height: 2;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="proposal.html">Deliverable 1</a></li>
+  <li><a href="deliverable2.html">Deliverable 2</a></li>
+  <li><a href="deliverable3.html">Deliverable 3</a></li>
+  <li><a href="deliverable5.html">Deliverable 5</a></li>
+</ul>
+
+
+<h1>Abstract</h1>
+
+
+<p>
+    In the ever-evolving landscape of digital communication, accurately interpreting the nuanced tone of text messages remains a persistent challenge. Misinterpretations often arise due to the absence of visual cues, leading to potential misunderstandings and communication breakdowns. To address this issue, the ColorCoded Messaging prototype introduces a novel approach by allowing users to associate specific colors with distinct tones, providing a visual representation of the intended emotion behind each message.
+    <br>
+    <br>
+    The prototype not only aims to enhance communication clarity but also endeavors to create a more inclusive and accessible messaging experience. By integrating user customization options, ColorCoded Messaging empowers individuals to tailor the system to their specific needs, fostering a more personalized and user-friendly environment. Additionally, the prototype considers accessibility goals, ensuring that the chosen color palette is friendly to users with color blindness and other visual impairments.
+    <br>
+    <br>
+    This report comprehensively outlines the project's motivation, potential prototype ideas, user customization features, accessibility goals, benchmark tasks, usability evaluation results, and user feedback analysis. Through a detailed exploration of the methodology, the report illuminates the intended user population and the estimated implementation effort. By presenting a thorough discussion of findings, including usability goals, benchmark task outcomes, and user feedback analysis, this report aims to provide a holistic understanding of the ColorCoded Messaging prototype and its potential impact on digital communication.
+    
+</p>
+
+
+<h1>Introduction</h1>
+
+<p>
+    In the fast-paced and dynamic realm of digital communication, the exchange of text messages has become a ubiquitous form of interaction. However, despite its prevalence, one persistent challenge prevails—the difficulty in accurately gauging the emotional tone behind written words. In the absence of facial expressions, vocal intonations, or other non-verbal cues, text messages often carry a level of ambiguity that can lead to misinterpretations and, in some cases, unintended conflicts.
+    <br>
+    <br>
+    The interpretation of tone in text messages is a nuanced art that individuals navigate daily. A seemingly innocuous message may be laden with sarcasm, excitement, or melancholy, but distinguishing these subtleties solely through text can be an intricate task. This inherent ambiguity poses a communication barrier, especially in scenarios where the emotional nuance is crucial for understanding the context or sentiment.
+    <br>
+    <br>
+    To address this challenge and introduce a layer of clarity to text-based communication, the ColorCoded Messaging prototype emerges as a pioneering solution. By incorporating a visual element—specifically, color—users can now assign distinct hues to their messages, thereby providing a tangible representation of the intended emotional tone. This approach not only adds a new dimension to digital conversations but also serves as an innovative tool for fostering more precise and nuanced communication.
+
+
+  
+ 
+</p>
+
+<h1>Related Work</h1>
+
+<p>
+    Currently, no existing systems use color to indicate message tone. This section highlights the unique proposition of ColorCoded Messaging compared to other solutions relying on textual tone indicators.
+
+</p>
+
+<h1>Methodology</h1>
+
+<p>
+    The development and evaluation of the ColorCoded Messaging prototype followed a systematic methodology encompassing several key stages.
+    <br>
+    <br>
+    1. Ideation and Conceptualization:
+    The project commenced with an extensive ideation phase, where the team brainstormed and conceptualized potential solutions to address the challenge of interpreting text tone. Various ideas were considered, which led to the proposal of color-coding messages as a visually intuitive way to convey emotional nuances.
+    <br>
+    <br>
+    2. Prototype Design:
+    Following the ideation phase, the team transitioned into the design stage, outlining potential prototype ideas. The main difference between our prototypes was the location of a “Begin Color Coding Button”, of which our group had many ideas. These ideas included implementing an additional key on the keyboard, holding down the send button, a tone button during message reactions, and an option near the digital touch button. The goal was to explore diverse approaches to integrate color into the messaging interface, ensuring user-friendly and accessible design.
+    <br>
+    <br>
+    3. User Customization and Accessibility:
+    Recognizing the importance of user customization and accessibility, the prototype incorporated features allowing users to customize the color palette and ensuring compatibility with users with color blindness and other visual impairments. Auto-recommendation of colors and the option to disable the feature were considered to provide users with a tailored experience. 
+    <br>
+    <br>
+    4. Implementation and Testing:
+    The selected prototype ideas were translated into a functional system using Python scripts and a user interface. The prototype is a simulated text message conversation, in which you are able to test what it is like having additional buttons to indicate your emotions. Testing involved iterative cycles, refining the features based on user feedback. GitHub pages facilitated collaborative development, allowing for version control and efficient communication within the development team.
+    <br>
+    <br>
+    5. Usability Goals and Benchmark Tasks:
+    Usability goals were defined, focusing on user-friendliness, consistency, and accessibility. Benchmark tasks, such as system setup, interaction testing, and evaluation with color-blind users, were designed to assess the prototype's performance against these goals.
+    <br>
+    <br>
+    6. Usability Evaluation:
+    User testing involved a diverse group of participants interacting with the prototype. Examining setup processes, user interactions, and color-blind user experiences provided valuable insights. User feedback, collected through interviews and observation, guided the iterative refinement of the prototype.
+
+
+</p>
+  
+<h1>Results/Findings</h1>
+
+<p>
+    The usability evaluation revealed a spectrum of experiences and opinions from the user base, providing valuable insights into the prototype's strengths and areas for improvement. One user expressed how the system felt a little bit clunky and hard to navigate. This is definitely valuable feedback and helps us see where the system could be improved. It was also good to see that some users had a positive experience with the prototype and had suggestions for things we could add. This shows that users do think that our prototype is something they think is useful and that they would use. We hope to take this feedback and use it to make improvements to our prototype and continue to refine our usability goals to create a better user experience.
+</p>
+
+<h1>Usability Goals:</h1>
+<p>
+    User-Friendliness:
+    <br>
+    Varied feedback was obtained regarding the setup process. While some users found it intuitive, others experienced frustration, highlighting the need for further refinement in onboarding procedures. 
+
+    <br>
+    Consistency:
+    <br>
+    Users suggested enabling tone modification for sent messages to enhance consistency in conveying emotional nuances. This insight is pivotal for future iterations, emphasizing the importance of maintaining a coherent tone throughout a conversation.
+    <br>
+    Accessibility:
+    <br>
+    Feedback from color-blind users underscored the importance of user-friendly color options. The prototype's current design successfully accommodated color-blind users, indicating a positive step toward accessibility goals.
+
+</p>
+
+<h1>Benchmark Tasks</h1>
+
+<p>
+    System Setup:
+    <br>
+    Overall, users found the setup process straightforward. However, minor confusion was reported around the question "Who are you talking to" when not engaging with an actual person. This feedback informs the need for clearer instructions during system setup.
+    <br>
+    Interaction with the System:
+    <br>
+    User reactions were mixed; some found the system helpful in conveying emotions, while others desired additional features. This suggests the potential for refining existing features and exploring new functionalities to enhance user satisfaction and the user’s experience.
+    <br>
+    Color-Blind User Experience:
+    <br>
+    Positive feedback from color-blind users indicated a successful implementation of user-friendly color options. No reported issues in distinguishing colors highlighted the prototype's accessibility for users with color blindness.
+
+
+</p>
+
+
+<h1>User Feedback Analysis</h1>
+
+<p>
+  User 1:
+  <br>
+  Suggested enabling tone modification for sent messages. This insight aligns with the goal of enhancing consistency in conveying emotional nuances and warrants consideration for future feature development. 
+  <br>
+  User 2:
+  <br>
+  Recommended a larger display screen and desired more tone options. This user's feedback indicates potential areas for improvement in both the physical design and feature set of the prototype.
+  <br>
+  User 3:
+  <br>
+  Expressed frustration with the prototype's perceived clunkiness. This feedback is crucial for identifying and addressing usability issues to create a smoother and more enjoyable user experience.  
+
+  <br>
+  User 4:
+  <br>
+  Enjoyed the prototype but wished for the ability to send longer messages and include emojis. This positive feedback, coupled with user suggestions, points toward opportunities for expanding the prototype's feature set to meet diverse user preferences.
+  <br>
+</p>
+
+<h1>Discussion</h1>
+
+<p>
+    The analysis of user experiences has provided invaluable insights into the strengths and areas for improvement of our prototype. Users' constructive suggestions, such as the recommendation to enable tone modification for sent messages and refine the system's design, highlight the necessity of iterative refinement in the development process. This iterative approach is crucial for addressing evolving user needs and expectations. The feedback also emphasizes the significance of obtaining user input on potential issues that might not have been immediately apparent during the design and testing phases. Users play a vital role in uncovering aspects of the prototype that require attention and enhancement, contributing to an overall more user-friendly and effective system. There is room for improvement that we can make to the design and it demonstrates the importance of getting feedback on issues that we may not have noticed initially. It’s also great to see whether or not things we have implemented are helpful for users or are unnecessary features that we could put less time and emphasis on. For example, addressing concerns about display size and incorporating additional features can enhance the prototype's appeal. Working on these issues can help to improve the prototype whereas something like adding more colors may not be as beneficial to users. 
+
+</p>
+
+<h1>Conclusion</h1>
+
+<p>
+    The results of our testing gained us some extremely useful insight and tips. These tips included adding tone/color modification to messages that have already been sent, more options for tones/emotions, the ability to have a larger screen as well as the ability to send longer messages. Some users also had issues with the functionality of the system. This is extremely important for us to address so that we can ensure a user-friendly experience. Moving forward we would advance our prototype into a mobile app. This strategic move not only aligns with current communication trends but also offers distinct advantages in terms of functionality and user friendliness. Once the app is downloaded you would have the option to add a button to your keyboard, and it would work the same way as our prototype does. The functionality and user friendliness advantages to having our system on mobile are clear, this way you could easily integrate the system into your everyday text conversations. In conclusion, throughout this process we were able to collaborate as a group to conceptualize and produce a working prototype. As well as create usability goals and benchmark tasks for ourselves and test users on them using our prototype. This process has increased all of our abilities to collaborate and contribute to a group, and will no doubt help us in our future endeavors and careers.
+</p>
+
+<h1>Effort Diary</h1>
+
+<p>
+    Tatum: 
+    <br>
+    Tatum helped divide up the numerous tasks for our deliverables and helped maintain contact within the group so everyone was on the same page. She also did a majority of the write-ups to help summarize all of the work that was being done coding-wise by both Jacob and Jack. She helped us stay on track and on a timeline for each deliverable.
+    <br>
+    Deliverable 1: 100%
+    <br>
+    Deliverable 2: 100%
+    <br>
+    Deliverable 3: 100%
+    <br>
+    Deliverable 4: 100%
+    <br>
+    Deliverable 5: 100%
+    <br>
+    Total: 100%
+    <br>
+    Jack:
+    <br>
+    Jack developed and programmed our prototype. He worked through numerous different iterations of the prototype and worked out initial testing bugs and styling issues. Jack also assisted in write-ups, as well as proof reading and editing deliverables.
+    <br>
+    Deliverable 1: 90%
+    <br>
+    Deliverable 2: 85%
+    <br>
+    Deliverable 3: 100%
+    <br>
+    Deliverable 4: 85%
+    <br>
+    Deliverable 5: 90%
+    <br>
+    Total: 90%
+    <br>
+    Jacob:
+    <br>
+    Jack developed and programmed our prototype. He worked through numerous different iterations of the prototype and worked out initial testing bugs and styling issues. Jack also assisted in write-ups, as well as proof reading and editing deliverables.
+    <br>
+    Deliverable 1: 90%
+    <br>
+    Deliverable 2: 90%
+    <br>
+    Deliverable 3: 85%
+    <br>
+    Deliverable 4: 85%
+    <br>
+    Deliverable 5: 90%
+    <br>
+    Total: 86%
+    <br>
+    Jacob worked on putting on all of the deliverables on GitHub and making the site smooth and run properly. Jacob also assited some in write ups and proof reading deliverables.
+
+</p>
+
+</body>
+</html>
